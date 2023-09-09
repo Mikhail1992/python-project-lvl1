@@ -1,6 +1,8 @@
 import prompt
 
 
+rounds_count = 3
+
 def get_user_name():
     user_name = prompt.string('May I have your name? ', True)
     return 'User' if user_name is None else user_name
@@ -30,4 +32,4 @@ def runGame(title, game):
 
         runGameRound(round - 1)
 
-    runGameRound(3)
+    runGameRound(rounds_count)
