@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import random
-from .game import runGame
+from ..game import runGame
 
 
 title = "Answer 'yes' if the number is even, otherwise answer 'no'"
